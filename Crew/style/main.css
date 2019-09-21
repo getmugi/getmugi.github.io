@@ -197,7 +197,11 @@ hr {
       margin-top: 59px; }
     .game-container .game-message a {
       display: inline-block;
+<<<<<<< HEAD:Crew/style/main.css
       background: #438c94;
+=======
+      background: #205357;
+>>>>>>> bd5e21e17885aa21b6cbfa7524af401ffa48126d:style/main.css
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
