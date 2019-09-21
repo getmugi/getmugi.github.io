@@ -1,1 +1,0 @@
-# getmugi.github.io
