@@ -43,18 +43,7 @@ GameManager.prototype.setup = function () {
   this.keepPlaying = false;
 
   // Add the initial tiles
-  //this.addStartTiles();
-  this.grid.insertTile(new Tile({x:0,y:0}, 1024));
-  this.grid.insertTile(new Tile({x:0,y:1}, 512));
-  this.grid.insertTile(new Tile({x:0,y:2}, 256));
-  this.grid.insertTile(new Tile({x:0,y:3}, 128));
-  this.grid.insertTile(new Tile({x:1,y:3}, 64));
-  this.grid.insertTile(new Tile({x:1,y:2}, 32));
-  this.grid.insertTile(new Tile({x:1,y:1}, 16));
-  this.grid.insertTile(new Tile({x:1,y:0}, 8));
-  this.grid.insertTile(new Tile({x:2,y:0}, 4));
-  this.grid.insertTile(new Tile({x:2,y:1}, 2048));
-  this.grid.insertTile(new Tile({x:2,y:2}, 2048));
+  this.addStartTiles();
 
   // Update the actuator
   this.actuate();
